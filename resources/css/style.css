@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: white;
+    color: black;
+    text-rendering: optimizeLegibility;
+    font-size: 16px;
+    font-family: 'Work Sans', 'Arial', sans-serif;
+}
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.7)), url(img/header-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+.header-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+h1{
+    font-size: 500%;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 200%;
+    color: white;
+    font-weight: 400 ;
+}
+
+.header-text-box{
+    margin-bottom: 100px;
+}
+
+.btn:link, .btn:visited{
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 200px;
+}
+
+.btn-full:link, .btn-full:visited{
+    background-color: #ed07b7;
+    color:white;
+}
+
+.btn-full:hover, .btn-full:active{
+    background-color: #be0692;
+}
+
+.main-nav{
+    list-style: none;
+    margin-top: 50px;
+    float: right;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-right: 40px;
+    text-transform: uppercase;    
+}
+
+.main-nav li a:link, .main-nav li a:visited{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px; /* Cambio mio */
+}
+
+.main-nav li a:hover, .main-nav li a:active{
+    border-bottom:2px solid #be0692;
+}
+
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+}
