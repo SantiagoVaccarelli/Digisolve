@@ -17,39 +17,6 @@ html, body{
     margin:0 auto;
 }
 
-header{
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,.7)), url(img/header-img.jpg);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    position: relative; 
-}
-
-.header-box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    text-align: center;
-}
-
-h1{
-    font-size: 500%;
-    color: white;
-    font-weight: 400;
-    margin-bottom: 20px;
-}
-
-h2{
-    font-size: 200%;
-    color: white;
-    font-weight: 400 ;
-}
-
-.header-text-box{
-    margin-bottom: 100px;
-}
-
 /**** BUTTONS ****/
 
 .btn:link, .btn:visited{
@@ -76,6 +43,48 @@ h2{
     background-color: #ed07b7;
     color: white;
 }
+
+/**** HEADINGS SECTION****/
+
+
+h1{
+    font-size: 500%;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 200%;
+    color: white;
+    font-weight: 400 ;
+}
+
+/**** HEADER SECTION ****/
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,.7)), url(img/header-img.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative; 
+}
+
+.header-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+
+.header-text-box{
+    margin-bottom: 100px;
+}
+
+
+/**** NAVIGATION ****/
 
 .main-nav{
     list-style: none;
@@ -105,6 +114,9 @@ h2{
     float: left;
 }
 
+
+/**** ABOUT SECTION ****/
+
 .laptop-image{
     width: 100%;
 }
@@ -133,3 +145,43 @@ h2{
 .about-box:last-child{
     text-align: right;
 }
+
+.about-section{
+    padding-bottom: 20px;
+}
+
+/**** WORK SECTION ****/
+
+.work-section{
+    text-align: center;
+}
+
+.section-heading{
+    font-size: 250%;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.section-sub-heading{
+    font-size: 150%;
+    color: #555;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.section-sub-heading:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #ed07b7;
+    content:" ";
+    margin: 30px auto 0 auto;
+}
+
+/*
+.portfolio-image{
+    width: 10%;
+    height: auto;
+    display: inline-block;
+    padding: 2.5%;
+}*/
