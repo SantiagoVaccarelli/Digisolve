@@ -67,7 +67,7 @@ h2{
 
 .main-nav{
     list-style: none;
-    margin-top: 50px;
+    margin-top: 30px;
     float: right;
 }
 
@@ -80,6 +80,7 @@ h2{
 .main-nav li a:link, .main-nav li a:visited{
     text-decoration: none;
     color: white;
+    transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover, .main-nav li a:active{
@@ -90,4 +91,15 @@ h2{
     height: 120px;
     width: auto;
     float: left;
+}
+
+.laptop-image{
+    width: 100%;
+}
+
+.about-heading{
+    color: black;
+    font-size: 250%;
+    font-weight: 500;
+    margin-bottom: 50px;
 }
