@@ -183,6 +183,7 @@ header{
     color: #555;
     font-weight: 300;
     margin-bottom: 30px;
+    line-height: 1.5;
 }
 
 .section-sub-heading:after{
@@ -266,3 +267,64 @@ header{
     text-decoration: none;
 }
 
+/**** PARTNERS SECTION ****/
+
+.partners-section{
+    text-align: center;
+    background-color: white;
+}
+
+.partner-logo{
+    width: 65%;
+    height: auto;
+}
+
+/**** TESTIMONIALS SECTION ****/
+
+.testimonial-section{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.8)), url(/resources/css/img/testimonial-background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+.testimonial-heading{
+    font-size: 250%;
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.testimonial-box{
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 1.5;
+    position: relative;
+    margin-top: 40px;
+}
+blockquote:before{
+    content: "\201c";
+    display: block;
+    font-size: 500%;
+    position: absolute;
+    left: -5px;
+    top: -60px;
+}
+
+cite{
+    display: block;
+    margin-top: 25px;
+    font-size: 90%;
+}
+
+cite img{
+    border-radius: 50%;
+    height: 20%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
