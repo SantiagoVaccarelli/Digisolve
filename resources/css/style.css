@@ -409,3 +409,41 @@ cite img{
 .package-box div:first-child{
     background-color: #fcfcfc;
 }
+
+/**** CONTACT FORM SECTION ****/
+
+.contact-section{
+    text-align: center;
+    color: #555;
+}
+
+.contact-heading{
+    color: black;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.contact-form{
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+input[type=checkbox]{
+    margin:10px 5px 10px 0;
+}
+
+textarea{
+    height: 150px;
+}
+
