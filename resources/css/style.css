@@ -32,19 +32,19 @@ html, body{
 
 /**** BUTTONS ****/
 
-.btn:link, .btn:visited{
+.btn:link, .btn:visited, input[type="submit"]{
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 200px;
     display: inline-block;
 }
 
-.btn-full:link, .btn-full:visited{
+.btn-full:link, .btn-full:visited, input[type="submit"]{
     background-color: #ed07b7;
     color:white;
 }
 
-.btn-full:hover, .btn-full:active{
+.btn-full:hover, .btn-full:active, input[type="submit"]:hover{
     background-color: #be0692;
 }
 
@@ -447,3 +447,83 @@ textarea{
     height: 150px;
 }
 
+input[type="submit"]{
+    border: 0;
+}
+
+*:focus{
+    outline: none;
+}
+
+
+/**** FOOTER ****/
+
+footer{
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+    color: #888;
+}
+
+.footer-nav{
+    float: left;
+}
+
+.footer-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li a:link, .footer-nav li a:visited{
+    color: #888;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover, .footer-nav li a:active{
+    color: white;
+}
+
+
+.social-links{
+    float: right;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.social-links li a:link, .social-links li a:visited{
+    color: #888;
+    text-decoration: none;
+    font-size: 160%;
+}
+
+.fa-facebook-f:hover, .fa-twitter:hover, .fa-google-plus-g:hover, .fa-instagram:hover{
+    transition: color 0.2s;
+}
+
+.fa-facebook-f:hover{
+    color: #3b5998;
+}
+
+.fa-twitter:hover{
+    color: #00aced;
+}
+
+.fa-google-plus-g:hover{
+    color: #dd4b39;
+}
+
+.fa-instagram:hover{
+    color: #517fa4;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5;
+}
