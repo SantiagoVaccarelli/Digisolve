@@ -101,6 +101,13 @@ header{
 
 /**** NAVIGATION ****/
 
+/*
+nav{
+    position: fixed;
+    width: 100%;
+} Para que en el header no desaparezca el nav
+*/
+
 .main-nav{
     list-style: none;
     margin-top: 30px;
