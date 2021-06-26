@@ -101,11 +101,11 @@ header{
 
 /**** NAVIGATION ****/
 
-/*
+
 nav{
     position: fixed;
     width: 100%;
-} Para que en el header no desaparezca el nav
+} /*Para que en el header no desaparezca el nav
 */
 
 .main-nav{
