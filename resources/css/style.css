@@ -564,7 +564,7 @@ footer p{
 /****  JQUERY ANIMATE ON SCROLL ****/
 
 .js--about-box{
-    opacity: 0;
+    opacity: 1; /*tiene que ser cero para aparecer con la transicion*/
     animation-duration: 1s;
 }
 
